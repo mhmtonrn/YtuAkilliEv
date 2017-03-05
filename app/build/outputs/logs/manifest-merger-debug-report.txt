@@ -1,0 +1,134 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\mehmet\Desktop\YtuAkilliEv\app\src\main\AndroidManifest.xml:2:1-45:12
+	package
+		ADDED from C:\Users\mehmet\Desktop\YtuAkilliEv\app\src\main\AndroidManifest.xml:3:5-44
+		INJECTED from C:\Users\mehmet\Desktop\YtuAkilliEv\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\mehmet\Desktop\YtuAkilliEv\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\mehmet\Desktop\YtuAkilliEv\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\mehmet\Desktop\YtuAkilliEv\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\mehmet\Desktop\YtuAkilliEv\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\mehmet\Desktop\YtuAkilliEv\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\mehmet\Desktop\YtuAkilliEv\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.BLUETOOTH
+ADDED from C:\Users\mehmet\Desktop\YtuAkilliEv\app\src\main\AndroidManifest.xml:5:5-68
+	android:name
+		ADDED from C:\Users\mehmet\Desktop\YtuAkilliEv\app\src\main\AndroidManifest.xml:5:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from C:\Users\mehmet\Desktop\YtuAkilliEv\app\src\main\AndroidManifest.xml:6:5-74
+	android:name
+		ADDED from C:\Users\mehmet\Desktop\YtuAkilliEv\app\src\main\AndroidManifest.xml:6:22-71
+application
+ADDED from C:\Users\mehmet\Desktop\YtuAkilliEv\app\src\main\AndroidManifest.xml:8:5-42:19
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\mehmet\Desktop\YtuAkilliEv\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\mehmet\Desktop\YtuAkilliEv\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\mehmet\Desktop\YtuAkilliEv\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\mehmet\Desktop\YtuAkilliEv\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\mehmet\Desktop\YtuAkilliEv\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\mehmet\Desktop\YtuAkilliEv\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\mehmet\Desktop\YtuAkilliEv\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:23.4.0] C:\Users\mehmet\Desktop\YtuAkilliEv\app\build\intermediates\exploded-aar\com.android.support\design\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\mehmet\Desktop\YtuAkilliEv\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\mehmet\Desktop\YtuAkilliEv\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\mehmet\Desktop\YtuAkilliEv\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\mehmet\Desktop\YtuAkilliEv\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\mehmet\Desktop\YtuAkilliEv\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\mehmet\Desktop\YtuAkilliEv\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\mehmet\Desktop\YtuAkilliEv\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\mehmet\Desktop\YtuAkilliEv\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\mehmet\Desktop\YtuAkilliEv\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from C:\Users\mehmet\Desktop\YtuAkilliEv\app\src\main\AndroidManifest.xml:12:9-41
+	android:supportsRtl
+		ADDED from C:\Users\mehmet\Desktop\YtuAkilliEv\app\src\main\AndroidManifest.xml:13:9-35
+	android:allowBackup
+		ADDED from C:\Users\mehmet\Desktop\YtuAkilliEv\app\src\main\AndroidManifest.xml:10:9-35
+	android:icon
+		ADDED from C:\Users\mehmet\Desktop\YtuAkilliEv\app\src\main\AndroidManifest.xml:11:9-46
+	android:theme
+		ADDED from C:\Users\mehmet\Desktop\YtuAkilliEv\app\src\main\AndroidManifest.xml:14:9-40
+activity#com.fatihkayranci.ytuakilliev.acilis
+ADDED from C:\Users\mehmet\Desktop\YtuAkilliEv\app\src\main\AndroidManifest.xml:15:9-21:20
+	android:name
+		ADDED from C:\Users\mehmet\Desktop\YtuAkilliEv\app\src\main\AndroidManifest.xml:15:19-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\mehmet\Desktop\YtuAkilliEv\app\src\main\AndroidManifest.xml:16:13-20:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\mehmet\Desktop\YtuAkilliEv\app\src\main\AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from C:\Users\mehmet\Desktop\YtuAkilliEv\app\src\main\AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\mehmet\Desktop\YtuAkilliEv\app\src\main\AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from C:\Users\mehmet\Desktop\YtuAkilliEv\app\src\main\AndroidManifest.xml:19:27-74
+activity#com.fatihkayranci.ytuakilliev.TV
+ADDED from C:\Users\mehmet\Desktop\YtuAkilliEv\app\src\main\AndroidManifest.xml:22:9-40
+	android:name
+		ADDED from C:\Users\mehmet\Desktop\YtuAkilliEv\app\src\main\AndroidManifest.xml:22:19-37
+activity#com.fatihkayranci.ytuakilliev.Klima
+ADDED from C:\Users\mehmet\Desktop\YtuAkilliEv\app\src\main\AndroidManifest.xml:23:9-43
+	android:name
+		ADDED from C:\Users\mehmet\Desktop\YtuAkilliEv\app\src\main\AndroidManifest.xml:23:19-40
+activity#com.fatihkayranci.ytuakilliev.Priz1
+ADDED from C:\Users\mehmet\Desktop\YtuAkilliEv\app\src\main\AndroidManifest.xml:24:9-43
+	android:name
+		ADDED from C:\Users\mehmet\Desktop\YtuAkilliEv\app\src\main\AndroidManifest.xml:24:19-40
+activity#com.fatihkayranci.ytuakilliev.Priz2
+ADDED from C:\Users\mehmet\Desktop\YtuAkilliEv\app\src\main\AndroidManifest.xml:25:9-43
+	android:name
+		ADDED from C:\Users\mehmet\Desktop\YtuAkilliEv\app\src\main\AndroidManifest.xml:25:19-40
+activity#com.fatihkayranci.ytuakilliev.Priz3
+ADDED from C:\Users\mehmet\Desktop\YtuAkilliEv\app\src\main\AndroidManifest.xml:26:9-43
+	android:name
+		ADDED from C:\Users\mehmet\Desktop\YtuAkilliEv\app\src\main\AndroidManifest.xml:26:19-40
+activity#com.fatihkayranci.ytuakilliev.Guncellestirme
+ADDED from C:\Users\mehmet\Desktop\YtuAkilliEv\app\src\main\AndroidManifest.xml:27:9-52
+	android:name
+		ADDED from C:\Users\mehmet\Desktop\YtuAkilliEv\app\src\main\AndroidManifest.xml:27:19-49
+activity#com.fatihkayranci.ytuakilliev.Hakkimizda
+ADDED from C:\Users\mehmet\Desktop\YtuAkilliEv\app\src\main\AndroidManifest.xml:28:9-48
+	android:name
+		ADDED from C:\Users\mehmet\Desktop\YtuAkilliEv\app\src\main\AndroidManifest.xml:28:19-45
+activity#com.fatihkayranci.ytuakilliev.Bilgi
+ADDED from C:\Users\mehmet\Desktop\YtuAkilliEv\app\src\main\AndroidManifest.xml:29:9-43
+	android:name
+		ADDED from C:\Users\mehmet\Desktop\YtuAkilliEv\app\src\main\AndroidManifest.xml:29:19-40
+activity#com.fatihkayranci.ytuakilliev.Bilgi2
+ADDED from C:\Users\mehmet\Desktop\YtuAkilliEv\app\src\main\AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from C:\Users\mehmet\Desktop\YtuAkilliEv\app\src\main\AndroidManifest.xml:30:19-41
+activity#com.fatihkayranci.ytuakilliev.GirisActivity
+ADDED from C:\Users\mehmet\Desktop\YtuAkilliEv\app\src\main\AndroidManifest.xml:31:9-33:20
+	android:name
+		ADDED from C:\Users\mehmet\Desktop\YtuAkilliEv\app\src\main\AndroidManifest.xml:31:19-48
+uses-sdk
+INJECTED from C:\Users\mehmet\Desktop\YtuAkilliEv\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\mehmet\Desktop\YtuAkilliEv\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\mehmet\Desktop\YtuAkilliEv\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\mehmet\Desktop\YtuAkilliEv\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\mehmet\Desktop\YtuAkilliEv\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\mehmet\Desktop\YtuAkilliEv\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\mehmet\Desktop\YtuAkilliEv\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\mehmet\Desktop\YtuAkilliEv\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:23.4.0] C:\Users\mehmet\Desktop\YtuAkilliEv\app\build\intermediates\exploded-aar\com.android.support\design\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.4.0] C:\Users\mehmet\Desktop\YtuAkilliEv\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\mehmet\Desktop\YtuAkilliEv\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\mehmet\Desktop\YtuAkilliEv\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\mehmet\Desktop\YtuAkilliEv\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\mehmet\Desktop\YtuAkilliEv\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\mehmet\Desktop\YtuAkilliEv\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\mehmet\Desktop\YtuAkilliEv\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\mehmet\Desktop\YtuAkilliEv\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\mehmet\Desktop\YtuAkilliEv\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\mehmet\Desktop\YtuAkilliEv\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.4.0] C:\Users\mehmet\Desktop\YtuAkilliEv\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from C:\Users\mehmet\Desktop\YtuAkilliEv\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\mehmet\Desktop\YtuAkilliEv\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\mehmet\Desktop\YtuAkilliEv\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\mehmet\Desktop\YtuAkilliEv\app\src\main\AndroidManifest.xml

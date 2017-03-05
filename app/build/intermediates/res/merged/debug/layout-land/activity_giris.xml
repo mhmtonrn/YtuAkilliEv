@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.fatihkayranci.ytuakilliev.GirisActivity"
+    android:background="@mipmap/arkaplan">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+    android:layout_width="65dp"
+    android:layout_height="65dp"
+    android:background="@drawable/buttonshape3"
+    android:text="Priz2"
+        android:textColor="#FFFFFF"
+    android:id="@+id/priz2"
+
+            android:textSize="13dp"
+            android:layout_below="@+id/priz3"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="15dp" />
+
+        <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:textColor="#FFFFFF"
+    android:text="Priz1"
+    android:id="@+id/priz1"
+    android:background="@drawable/buttonshape2"
+            android:layout_alignTop="@+id/klima"
+            android:layout_toLeftOf="@+id/priz2"
+            android:layout_toStartOf="@+id/priz2" />
+
+        <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:textColor="#FFFFFF"
+
+    android:background="@drawable/buttonshape2"
+    android:text="Priz3"
+    android:id="@+id/priz3"
+            android:textSize="12dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/TV"
+            android:layout_toEndOf="@+id/TV"
+            android:layout_marginTop="10dp" />
+
+        <Button
+
+        android:id="@+id/klima"
+
+        android:text="Klima"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/buttonshape3"
+            android:layout_alignBottom="@+id/linearLayout3"
+            android:layout_alignRight="@+id/TV"
+            android:layout_alignEnd="@+id/TV" />
+
+        <Button
+
+    android:id="@+id/TV"
+
+    android:text="TV"
+    android:textColor="#FFFFFF"
+    android:textSize="20dp"
+    android:layout_width="70dp"
+    android:layout_height="70dp"
+    android:background="@drawable/buttonshape"
+    android:shadowColor="#a86887"
+    android:shadowDx="0"
+    android:shadowDy="0"
+    android:shadowRadius="5"
+            android:layout_marginRight="29dp"
+            android:layout_marginEnd="29dp"
+            android:layout_alignBaseline="@+id/priz2"
+            android:layout_alignBottom="@+id/priz2"
+            android:layout_toLeftOf="@+id/priz1"
+            android:layout_toStartOf="@+id/priz1" />
+
+        <ImageButton
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:id="@+id/imageButton"
+            android:background="@mipmap/imagebuton"
+
+            android:layout_alignBottom="@+id/TV"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="135dp"
+            android:layout_height="115dp"
+            android:id="@+id/linearLayout3"
+            android:layout_below="@+id/imageButton"
+            android:layout_alignLeft="@+id/imageButton"
+            android:layout_alignStart="@+id/imageButton">
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:text="Akıllı Ev"
+                android:id="@+id/bilgi"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:textIsSelectable="false"
+                android:background="@drawable/buttonshape4"
+                android:layout_below="@+id/imageButton"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="5dp" />
+
+            <Button
+                android:layout_width="115dp"
+                android:layout_height="35dp"
+                android:text="Hakkımızda"
+                android:id="@+id/hakkimizda"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:background="@drawable/buttonshape6"
+                android:layout_alignBaseline="@+id/klima"
+                android:layout_alignBottom="@+id/klima"
+                android:layout_alignLeft="@+id/bilgi"
+                android:layout_alignStart="@+id/bilgi"
+                android:layout_marginBottom="5dp" />
+
+            <Button
+                android:layout_width="130dp"
+                android:layout_height="35dp"
+                android:text="Güncelleme"
+                android:id="@+id/guncelleme"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:background="@drawable/buttonshape5"
+                android:layout_alignParentBottom="true"
+                android:layout_alignLeft="@+id/hakkimizda"
+                android:layout_alignStart="@+id/hakkimizda"
+                android:layout_marginBottom="5dp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

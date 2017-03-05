@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Bilgi"
+    android:background="@mipmap/arkaplan">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="300sp"
+            android:layout_height="416dp"
+            android:textSize="16dp"
+            android:textColor="#000000"
+            android:id="@+id/text"
+            android:layout_below="@+id/başlık"
+            android:layout_centerHorizontal="true"
+            android:text="Yıldız Teknik Üniversitesi’nde 01 Ocak 2012 tarihinde başlayan çalışmalar sonucunda, Türkiye’de öncü olacak bir çevre dostu akıllı ev prototipi geliştirilmiştir ve böylece akıllı şebekelere ve akıllı şehirlere geçişte önemli bir altyapı oluşturulması sağlanmıştır. Gerçek evsel yüklerin kullanılması, yenilenebilir enerji kaynaklarından (rüzgar türbini ve güneş panelleri) ve enerji depolama sistemlerinden (elektrikli araç ve bataryalar) faydalanılması, sistemdeki cihazların haberleşmesi için çeşitli haberleşme teknolojilerinin bir arada kullanılması ve tamamen projeye özel bir yazılımın geliştirilmesi ile Türkiye’de ilk kez bu özelliklere sahip bir akıllı ev fiziksel olarak gerçeklenebilmiştir. Tasarlanan akıllı ev modüler bir yapıya sahip olduğu için, kurulacağı bölgeye göre seçilmiş olan kaynaklar ile benzer verim değerlerinde çalışabilmesi de mümkündür. Eve ait olan tüm cihazların tüketimi, neden oldukları karbon salınımları ve tüketim maliyetleri gibi çok sayıda bilginin gelişmiş bir arayüz yardımıyla çevrimiçi olarak kullanıcıya sunulmasıyla, EPRI’nin 2011 yılında yayınladığı teknik rapora göre % 5-15 arası bir verimlilik artışı ve 20 yılda yapılan yatırımın 2,6 – 6,0 katı arasında getirisi olacağı tahmin edilmektedir. Çift yönlü olarak çalışan şebeke ile elektriğin ucuz olduğu zamanlarda depolanması ve pahalı zamanlarda biriken enerjinin satılması bu değerleri olumlu yönde etkileyecektir. Bahsedilen özellikleri nedeniyle yakın bir zamanda patent başvurusu yapılması düşünülen akıllı evin enerji üretimi ve tüketimi değerleri göz önüne alındığında, 8-10 yıl içerisinde kendini amorti edeceği söylenebilir. Ayrıca, belirtilen konseptin daha yüksek rüzgar ve güneş potansiyeline sahip olan bölgelerde kullanılmasıyla ve enerji borsasının aktif olduğu yerlerde uygulanmasıyla bu süreler önemli oranda azaltılabilir. Bu sayede, akıllı evin Türkiye’de ve hatta dünyada inşaat sektörüne bir katma değer sağlayacağı öngörülmektedir."
+            android:textStyle="bold" />
+    </ScrollView>
+
+</RelativeLayout>

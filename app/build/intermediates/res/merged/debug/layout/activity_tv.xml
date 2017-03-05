@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+
+    tools:context="com.fatihkayranci.ytuakilliev.TV"
+    android:id="@+id/rl"
+    android:background="@mipmap/arkaplan_tv">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="240dp"
+        android:layout_height="160dp"
+        android:weightSum="1"
+        android:id="@+id/linearLayout"
+        android:layout_marginBottom="27dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="60dp"
+            android:layout_height="160dp"
+            android:weightSum="1">
+
+            <Button
+
+                android:layout_width="55dp"
+                android:layout_height="35dp"
+                android:text="1"
+                android:onClick="setting"
+                android:id="@+id/t1"
+                android:background="@drawable/tus3"
+                android:layout_marginBottom="3dp" />
+
+            <Button
+                android:layout_width="55dp"
+                android:layout_height="35dp"
+                android:text="4"
+                android:onClick="setting"
+                android:id="@+id/t4"
+                android:background="@drawable/tus3"
+                android:layout_marginBottom="3dp" />
+
+            <Button
+                android:layout_width="55dp"
+                android:layout_height="35dp"
+                android:text="7"
+                android:onClick="setting"
+                android:id="@+id/t7"
+                android:background="@drawable/tus3"
+                android:layout_marginBottom="3dp" />
+
+            <Button
+                android:layout_width="55dp"
+                android:layout_height="35dp"
+                android:text="v+"
+                android:onClick="setting"
+                android:id="@+id/v1"
+                android:background="@drawable/tus3" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="60dp"
+            android:layout_height="160dp">
+
+            <Button
+                android:layout_width="55dp"
+                android:layout_height="35dp"
+                android:text="2"
+                android:onClick="setting"
+                android:id="@+id/t2"
+                android:background="@drawable/tus6"
+                android:layout_marginBottom="3dp" />
+
+            <Button
+                android:layout_width="55dp"
+                android:layout_height="35dp"
+                android:text="5"
+                android:onClick="setting"
+                android:id="@+id/t5"
+                android:background="@drawable/tus6"
+                android:layout_marginBottom="3dp" />
+
+            <Button
+                android:layout_width="55dp"
+                android:layout_height="35dp"
+                android:text="8"
+                android:onClick="setting"
+                android:id="@+id/t8"
+                android:background="@drawable/tus6"
+                android:height="60dp"
+                android:layout_marginBottom="3dp" />
+
+            <Button
+                android:layout_width="55dp"
+                android:layout_height="35dp"
+                android:text="v-"
+                android:onClick="setting"
+                android:id="@+id/v2"
+                android:background="@drawable/tus6" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="60dp"
+            android:layout_height="160dp">
+
+            <Button
+                android:layout_width="55dp"
+                android:layout_height="35dp"
+                android:text="3"
+                android:onClick="setting"
+                android:id="@+id/t3"
+                android:background="@drawable/tus4"
+                android:layout_marginBottom="3dp" />
+
+            <Button
+                android:layout_width="55dp"
+                android:layout_height="35dp"
+                android:text="6"
+                android:onClick="setting"
+                android:id="@+id/t6"
+                android:background="@drawable/tus4"
+                android:layout_marginBottom="3dp" />
+
+            <Button
+                android:layout_width="55dp"
+                android:layout_height="35dp"
+                android:text="9"
+                android:onClick="setting"
+                android:id="@+id/t9"
+                android:background="@drawable/tus4"
+                android:layout_marginBottom="3dp" />
+
+            <Button
+                android:layout_width="55dp"
+                android:layout_height="35dp"
+                android:text="p+"
+                android:onClick="setting"
+                android:id="@+id/p1"
+                android:background="@drawable/tus4" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="60dp"
+            android:layout_height="160dp"
+            android:weightSum="1"
+            android:layout_weight="0.21">
+
+            <Button
+                android:layout_width="55dp"
+                android:layout_height="70dp"
+                android:text="I/O"
+                android:onClick="setting"
+                android:id="@+id/io"
+                android:background="@drawable/tus2"
+                android:layout_marginBottom="7dp" />
+
+            <Button
+                android:layout_width="55dp"
+                android:layout_height="35dp"
+                android:text="0"
+                android:onClick="setting"
+                android:id="@+id/t0"
+                android:background="@drawable/tus2"
+                android:layout_marginBottom="3dp" />
+
+            <Button
+                android:layout_width="55dp"
+                android:layout_height="35dp"
+                android:text="p-"
+                android:onClick="setting"
+                android:id="@+id/p2"
+                android:background="@drawable/tus2" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fatihkayranci.ytuakilliev"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/akilli_ev_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.fatihkayranci.ytuakilliev.acilis" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.fatihkayranci.ytuakilliev.TV" />
+        <activity android:name="com.fatihkayranci.ytuakilliev.Klima" />
+        <activity android:name="com.fatihkayranci.ytuakilliev.Priz1" />
+        <activity android:name="com.fatihkayranci.ytuakilliev.Priz2" />
+        <activity android:name="com.fatihkayranci.ytuakilliev.Priz3" />
+        <activity android:name="com.fatihkayranci.ytuakilliev.Guncellestirme" />
+        <activity android:name="com.fatihkayranci.ytuakilliev.Hakkimizda" />
+        <activity android:name="com.fatihkayranci.ytuakilliev.Bilgi" />
+        <activity android:name="com.fatihkayranci.ytuakilliev.Bilgi2" />
+        <activity android:name="com.fatihkayranci.ytuakilliev.GirisActivity" >
+        </activity>
+
+        <!--
+            <supports-screens
+        android:largeScreens="false"
+        android:normalScreens="false"
+
+        android:smallScreens="true"
+        android:xlargeScreens="false" />
+        -->
+
+    </application>
+
+</manifest>
